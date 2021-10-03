@@ -6,6 +6,6 @@ import gameRouter from "./gameRouter"
 const router = express.Router()
 
 router.use("/health", healthRouter)
-router.use("/game",gameRouter)
+router.use("/game", gameRouter)
 
 export default router
